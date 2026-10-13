@@ -25,7 +25,7 @@ runs:
         # Asset names carry the bare version (volt_v0.1.0_...), while the tag
         # is prefixed (volt/v0.4.0) — split off the prefix for the filename.
         bare="${VER##*/}"
-        base="https://github.com/khanakia/voltkit/releases/download/${VER}"
+        base="https://github.com/ubgo/voltkit/releases/download/${VER}"
         asset="volt_${bare}_linux_amd64.tar.gz"
         curl -fsSL -o "/tmp/${asset}" "${base}/${asset}"
         curl -fsSL -o /tmp/volt-checksums.txt "${base}/checksums.txt"

@@ -1,9 +1,9 @@
 # volt-action
 
-Installs the released [`volt`](https://github.com/khanakia/voltkit) binary (checksum-verified, ~1s — never `go install`, which would recompile volt on every fresh runner) and runs one command.
+Installs the released [`volt`](https://github.com/ubgo/voltkit) binary (checksum-verified, ~1s — never `go install`, which would recompile volt on every fresh runner) and runs one command.
 
 ```yaml
-- uses: khanakia/volt-action@v1
+- uses: ubgo/volt-action@v1
   with: { args: ci }
 ```
 
